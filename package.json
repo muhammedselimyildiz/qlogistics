@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.0.0-beta3",
     "gatsby": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
     "gatsby-plugin-image": "^1.11.0",
@@ -16,8 +18,11 @@
     "gatsby-transformer-sharp": "^3.11.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-scrollspy": "^3.4.3"
   },
   "devDependencies": {
     "prettier": "2.3.2"
