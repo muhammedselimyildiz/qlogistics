@@ -4,7 +4,10 @@ import Logo from '../../../images/Logo.png'
 
 const Footer = () => {
     return (
-        <Container className="foot">
+        <div className="container-fluid">
+            <div className="row">
+                <div className="dark-blue">
+                <Container className="foot">
             <Row>
             <Col xs={6} md={4}>
                 <Image src={Logo} alt="Qlogistics" />
@@ -16,6 +19,10 @@ const Footer = () => {
             </Row>
         </Container>
 
+                </div>
+            </div>
+        </div>
+        
     )
 }
 

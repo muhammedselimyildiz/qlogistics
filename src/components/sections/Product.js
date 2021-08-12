@@ -6,7 +6,10 @@ import Circle from "../../images/Oval Copy 3.png"
 
 const Product = () => {
     return (
-        <Container className="product">
+        <div className="contanier-fluid">
+            <div className="row">
+                <div className="product-dark">
+                <Container className="product">
             <h1>Product</h1>
             <p className="text1">Easy to use dashboard supporting every step of delivery process</p>
             <Row>
@@ -43,6 +46,10 @@ const Product = () => {
             
 
         </Container>
+                </div>
+            </div>
+        </div>
+        
     )
 }
 

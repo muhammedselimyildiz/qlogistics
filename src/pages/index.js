@@ -13,7 +13,6 @@ const index = () => {
     return (
         <Layout>
             <Home />
-            
             <Whyq />
             <Features />
             <Product />

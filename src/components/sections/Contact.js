@@ -3,7 +3,10 @@ import { Container, Row, Col } from "react-bootstrap"
 
 const Contact = () => {
     return (
-        <Container className="contact">
+        <div className="container-fluid">
+            <div className="row">
+                <div className="dark-blue">
+                <Container className="contact">
             <h1>Contact</h1>
             <Row className="g-5">
                 <Col md={6}>
@@ -38,6 +41,10 @@ const Contact = () => {
                 </Col>
             </Row>
         </Container>
+                </div>
+            </div>
+        </div>
+        
     )
 }
 
