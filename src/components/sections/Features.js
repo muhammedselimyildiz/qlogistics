@@ -10,8 +10,11 @@ import Arrows from "../../images/Group.png"
 
 const Features = () => {
     return (
-        <Container className="features">
-            <Row>
+        <div className="container-fluid">
+            <div className="row">
+                <div className="white">
+                <Container className="features">
+                <Row>
                 <h1>Features</h1>
                 <p className="text1">There are lots of reasons to have QLogistics!</p>
                 <Col md={4}>
@@ -52,6 +55,12 @@ const Features = () => {
                 </Col>
             </Row>
         </Container>
+                </div>
+
+            </div>
+
+        </div>
+        
         
     )
 }

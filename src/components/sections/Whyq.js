@@ -8,7 +8,10 @@ import { Container, Row, Col, Image } from "react-bootstrap"
 
 const Whyq = () => {
     return (
-        <Container className="why">
+        <div className="container-fluid">
+            <div className="row">
+                <div className="dark-blue">
+                <Container className="why">
             
             <div className="title">
                 <h1>Why</h1>
@@ -31,6 +34,10 @@ const Whyq = () => {
                 </Col>
             </Row>
         </Container>
+                </div>
+            </div>
+        </div>
+        
     )
 }
 
